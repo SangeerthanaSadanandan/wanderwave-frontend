@@ -1,0 +1,1 @@
+export const baseUrl = "https://wanderwave-backend-updated.onrender.com"

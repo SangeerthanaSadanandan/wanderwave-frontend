@@ -1,0 +1,128 @@
+.head_subtitle p {
+    background: #fd7e14;
+    font-family: "Island Moments", cursive;
+    width: max-content;
+    padding: 0px 8px;
+    padding-right: 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 27px;
+    color: #0b2727;
+}
+
+.head_subtitle img {
+    width: 38px;
+    height: 38px;
+}
+
+.head_content h1 {
+    color: #0b2727;
+    font-size: 49px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.head_content .highlights {
+    color: #fd7e14;
+}
+
+.head_content p {
+    font-size: 17px;
+    color: #6e7074;
+    line-height: 32px;
+}
+
+.head_imgbox img,
+.head_imgbox video {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: 1px solid #fd7e14;
+    object-fit: cover;
+}
+
+.head_content {
+    padding-top: 56px;
+}
+
+.head_imgbox {
+    padding-top: 40px;
+}
+
+.main-banner-content h3 {
+    display: block;
+}
+
+.featured_tour-title {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.customize_area {
+    background-image: url('https://www.skydays.travel/static/web/images/customize_bg.png');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.counter_wrapper {
+    margin-top: 40px;
+}
+
+.counter_box span {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fd7e14;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter_box h6 {
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.gallery_title {
+    font-size: 36px;
+    margin-bottom: 37px;
+    margin-top: 16px;
+}
+
+.customize_area {
+    margin-top: 20px;
+}
+
+.masonry__img {
+    transition: 0.3s;
+}
+
+.masonry__img:hover {
+    transform: scale(1.1);
+}
+
+.testimonal_title {
+    font-size: 36px;
+    margin-top: 16px;
+}
+
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+  }

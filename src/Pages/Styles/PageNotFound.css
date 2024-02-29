@@ -1,0 +1,68 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+}
+
+.not-found-content {
+    text-align: center;
+}
+
+.not-found-content h1 {
+    color: brown;
+}
+
+.not-found-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    animation: bounce 1s infinite;
+    /* Add a bounce animation */
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.back-to-home-link {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.back-to-home-btn {
+    background-color: #e44d26;
+    /* Vibrant orange color */
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home-btn:hover {
+    background-color: #d13810;
+    /* Darker orange color on hover */
+}
